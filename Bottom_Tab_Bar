@@ -1,0 +1,19 @@
+  bottomNavigationBar: BottomNavigationBar(
+        currentIndex: 1,
+         items: [
+        BottomNavigationBarItem(icon: Icon(Icons.home),label: "Home"),
+        BottomNavigationBarItem(icon: Icon(Icons.contact_mail),label: "Contact"),
+        BottomNavigationBarItem(icon: Icon(Icons.person),label: "Profile"),
+      ],
+      onTap: (int index){
+            if(index==0){
+                 mysnackbar("home", context);
+            }
+            if(index==1){
+                 mysnackbar("contact", context);
+            }
+            if(index==2){
+                 mysnackbar("profile", context);
+            }
+      },
+      ),
