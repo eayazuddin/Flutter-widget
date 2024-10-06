@@ -1,0 +1,23 @@
+
+var myItems = [
+    {"Img":"https://shorturl.at/PDK5t","Title":"Eayaz"},
+    {"Img":"https://shorturl.at/PDK5t","Title":"Roky"},
+    {"Img":"https://shorturl.at/PDK5t","Title":"Hasan"},
+    {"Img":"https://shorturl.at/PDK5t","Title":"Emon"},
+    {"Img":"https://shorturl.at/PDK5t","Title":"Salam"},
+  ];
+
+ListView.builder(
+        itemCount: myItems.length,
+        itemBuilder: (context,index){
+          return GestureDetector(
+            onTap: (){mysnackbar(myItems[index]["Title"], context);},
+            child: Container(
+              margin: EdgeInsets.all(10),
+              width: double.infinity,
+              height: 220,
+              child: Image.network(myItems[index]["Img"]!,fit: BoxFit.fill,),
+            ),
+          );
+        },
+      )
