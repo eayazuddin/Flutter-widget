@@ -1,0 +1,13 @@
+
+        body: Container(
+        height: 200,
+        width: 200,
+        alignment: Alignment.topCenter,
+        margin: EdgeInsets.all(20),
+        padding: EdgeInsets.all(20),
+        child: Text("hello"),
+        decoration: BoxDecoration(
+          color: Colors.grey,
+          border: Border.all(color: Colors.black,width: 3),
+        ),
+      ),
