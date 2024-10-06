@@ -1,0 +1,25 @@
+
+        drawer: Drawer(
+        child: ListView(
+          children: [
+            SizedBox(
+              height: 180,
+              child: DrawerHeader(
+                  padding: EdgeInsets.all(0),
+                  child: UserAccountsDrawerHeader(
+                  accountName: Text("Eayaz"),
+                  accountEmail: Text("info@gmail.com"),
+              currentAccountPicture: Image.network("https://shorturl.at/HukMi"),
+              decoration: BoxDecoration(
+                color: Colors.grey,
+              ),
+              )),
+            ),
+            ListTile(leading: Icon(Icons.home),title: Text("home"),onTap: (){mysnackbar("home", context);},),
+            ListTile(leading: Icon(Icons.contact_mail),title: Text("Contact"),onTap: (){mysnackbar("Contact", context);},),
+            ListTile(leading: Icon(Icons.person),title: Text("Profile"),onTap: (){mysnackbar("Profile", context);},),
+            ListTile(leading: Icon(Icons.email),title: Text("Email"),onTap: (){mysnackbar("Email", context);},),
+            ListTile(leading: Icon(Icons.phone),title: Text("Phone"),onTap: (){mysnackbar("Phone", context);},),
+          ],
+        ),
+      ),
