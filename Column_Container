@@ -1,0 +1,9 @@
+
+Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          Container(height: 100,width: 100,child: Image.network("https://shorturl.at/hC2yc"),),
+          Container(height: 100,width: 100,child: Image.network("https://shorturl.at/hC2yc"),),
+          Container(height: 100,width: 100,child: Image.network("https://shorturl.at/hC2yc"),),
+        ],
+      )
