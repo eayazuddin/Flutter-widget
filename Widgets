@@ -1,0 +1,7 @@
+                         snacbar
+
+ mysnackbar(message,context){
+
+    return ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(message)));
+
+  }
