@@ -1,0 +1,9 @@
+
+Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          TextButton(onPressed: (){mysnackbar("Test button", context);}, child: Text("Text Btn"), ),
+          ElevatedButton(onPressed: (){mysnackbar("Elevated button", context);}, child: Text("Elevated btn"),style: buttonStyle ),
+          OutlinedButton(onPressed: (){mysnackbar("Outline button", context);}, child: Text("Outline Btn") ),
+        ],
+      )
