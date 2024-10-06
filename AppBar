@@ -1,0 +1,15 @@
+
+ appBar: AppBar(
+          backgroundColor: Color.fromRGBO(125, 35, 200, 0.8),
+          title: Text("Inventory"),
+          titleSpacing: 10,
+          // centerTitle: true,
+        toolbarHeight: 70,
+        toolbarOpacity: 0.7,
+        elevation: 10,
+        actions: [
+          IconButton(onPressed: (){ mysnackbar("Add",context);}, icon: Icon(Icons.add)),
+          IconButton(onPressed: (){ mysnackbar("Search",context);}, icon: Icon(Icons.search)),
+          IconButton(onPressed: (){ mysnackbar("Comment",context);}, icon: Icon(Icons.comment)),
+        ],
+      ),
