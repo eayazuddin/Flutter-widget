@@ -1,0 +1,7 @@
+
+floatingActionButton: FloatingActionButton(
+        elevation: 15,
+        child: Icon(Icons.add),
+        backgroundColor: Colors.amber,
+        onPressed: (){mysnackbar("float", context);},
+      ),
