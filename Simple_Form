@@ -1,0 +1,19 @@
+
+ButtonStyle buttonStyle = ElevatedButton.styleFrom(
+     minimumSize: Size(double.infinity, 50),
+     backgroundColor: Colors.greenAccent,
+     foregroundColor: Colors.white,
+     shape: RoundedRectangleBorder(
+       borderRadius: BorderRadius.all(Radius.circular(10))
+     )
+   );
+
+Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: [
+          Padding(padding: EdgeInsets.all(10),child: TextField(decoration: InputDecoration(border: OutlineInputBorder(), labelText: "First name"),),),
+          Padding(padding: EdgeInsets.all(10),child: TextField(decoration: InputDecoration(border: OutlineInputBorder(), labelText: "Last name"),),),
+          Padding(padding: EdgeInsets.all(10),child: TextField(decoration: InputDecoration(border: OutlineInputBorder(), labelText: "Email "),),),
+          Padding(padding: EdgeInsets.all(10),child: ElevatedButton(onPressed: (){}, child: Text("Submit"),style: buttonStyle,),),
+        ],
+      )
