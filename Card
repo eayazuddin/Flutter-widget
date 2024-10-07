@@ -1,0 +1,14 @@
+
+Center(
+        child: Card(
+          elevation: 100,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
+          color: Color.fromRGBO(33, 191, 113, 1),
+          shadowColor: Color.fromRGBO(33, 191, 113, 1),
+          child: SizedBox(
+            height: 200,
+            width: 200,
+            child: Center(child: Text("This is card"),),
+          ),
+        ),
+      )
