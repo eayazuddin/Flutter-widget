@@ -1,0 +1,9 @@
+
+Center(
+        child: FractionallySizedBox(
+          widthFactor: 0.6,
+          heightFactor: 0.3,
+          child: Container(
+            color: Colors.deepOrange,
+          ),
+        )
