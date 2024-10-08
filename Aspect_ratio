@@ -1,0 +1,14 @@
+
+Container(
+        color: Colors.deepOrangeAccent,
+        width: double.infinity,
+        height: 300,
+        alignment: Alignment.center,
+        child: AspectRatio(
+            aspectRatio: 16/9,
+          child: Container(
+            color: Colors.blue,
+          ),
+
+        ),
+      )
