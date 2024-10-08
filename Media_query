@@ -1,0 +1,35 @@
+
+var height = MediaQuery.of(context).size.height;
+    var orientation = MediaQuery.of(context).orientation;
+
+    return Scaffold(
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          // Text("width${width}"),
+
+          Text("Hello flutter",style: HeadLine(context),),
+          Text("height${height}"),
+          Text("orientation${orientation}")
+        ],
+      ),
+     
+    )
+
+//style file
+TextStyle HeadLine(context){
+  var width = MediaQuery.of(context).size.width;
+
+  if(width>600){
+    return TextStyle(
+        color: Colors.green,
+        fontSize: 38
+    );
+  }
+  else{
+    return TextStyle(
+        color: Colors.blue,
+        fontSize: 24
+    );
+  }
+}
