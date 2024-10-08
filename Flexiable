@@ -1,0 +1,24 @@
+
+Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: [
+          Flexible(
+            fit: FlexFit.tight,
+              flex: 1,
+              child: Container(
+            color: Colors.orangeAccent,
+          )),
+          Flexible(
+            fit: FlexFit.tight,
+              flex: 2,
+              child: Container(
+                color: Colors.yellowAccent,
+              )),
+          Flexible(
+            fit: FlexFit.loose,
+              flex: 3,
+              child: Container(
+                color: Colors.grey,
+              )),
+        ],
+      )
