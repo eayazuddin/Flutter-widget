@@ -1,0 +1,15 @@
+
+SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            Container(width: 200,height: 200,color: Colors.green,),
+            Container(width: 200,height: 200,color: Colors.redAccent,),
+            Container(width: 200,height: 200,color: Colors.yellow,),
+            Container(width: 200,height: 200,color: Colors.blue,),
+            Container(width: 200,height: 200,color: Colors.orangeAccent,),
+          ],
+        ),
+      )
+
