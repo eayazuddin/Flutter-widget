@@ -1,0 +1,86 @@
+
+SingleChildScrollView(
+        scrollDirection: Axis.vertical,
+        child: BootstrapContainer(
+            fluid: false,
+            children: [BootstrapRow(
+                height: 100,
+                children: [
+                  BootstrapCol(
+                      sizes: 'col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1',
+                      child: Container(
+                        height: 100,
+                        color: Colors.green,
+                      ) ),
+                  BootstrapCol(
+                      sizes: 'col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1',
+                      child: Container(
+                        height: 100,
+                        color: Colors.red,
+                      ) ),
+                  BootstrapCol(
+                      sizes: 'col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1',
+                      child: Container(
+                        height: 100,
+                        color: Colors.yellowAccent,
+                      ) ),
+                  BootstrapCol(
+                      sizes: 'col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1',
+                      child: Container(
+                        height: 100,
+                        color: Colors.lime,
+                      ) ),
+                  BootstrapCol(
+                      sizes: 'col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1',
+                      child: Container(
+                        height: 100,
+                        color: Colors.lightBlue,
+                      ) ),
+                  BootstrapCol(
+                      sizes: 'col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1',
+                      child: Container(
+                        height: 100,
+                        color: Colors.black,
+                      ) ),
+                  BootstrapCol(
+                      sizes: 'col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1',
+                      child: Container(
+                        height: 100,
+                        color: Colors.blue,
+                      ) ),
+                  BootstrapCol(
+                      sizes: 'col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1',
+                      child: Container(
+                        height: 100,
+                        color: Colors.deepOrange,
+                      ) ),
+                  BootstrapCol(
+                      sizes: 'col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1',
+                      child: Container(
+                        height: 100,
+                        color: Colors.orangeAccent,
+                      ) ),
+                  BootstrapCol(
+                      sizes: 'col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1',
+                      child: Container(
+                        height: 100,
+                        color: Colors.purpleAccent,
+                      ) ),
+                  BootstrapCol(
+                      sizes: 'col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1',
+                      child: Container(
+                        height: 100,
+                        color: Colors.lightGreen,
+                      ) ),
+                  BootstrapCol(
+                      sizes: 'col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1',
+                      child: Container(
+                        height: 100,
+                        color: Colors.cyanAccent,
+                      ) ),
+
+                ]
+            )
+            ]
+        ),
+      )
